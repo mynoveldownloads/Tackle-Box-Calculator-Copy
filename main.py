@@ -1,5 +1,6 @@
 # Tackle Box Calculator
 # Coded on my android phone ;)
+# Copy and paste this source code and run it on an online python interpreter https://www.programiz.com/python-programming/online-compiler/
 
 # Budget
 
@@ -15,8 +16,8 @@ print("I can buy " + str(round(buy_tackle, )) + " tackle boxes for " + str(round
 # Item drop rate equation 
 # Let x be the number of tackle boxes
 
-#x = 5000
-x = buy_tackle
+# x = 5000 # <-- Use this if you want to calculate amount of WLS you will earn without having to calculate budget
+# x = buy_tackle # <-- Use this if you want to figure out the number of tackle boxes you can afford according to your budget
 
 fishingfly_equation = (121/600) * x
 megapellet_equation = (31/600) * x
