@@ -46,8 +46,9 @@ uranium_rate = uranium_equation / 30
 wiggly_rate = wiggly_equation / 500
 
 total_earned = fishingfly_rate + megapellet_rate + salmon_rate + shiny_rate + shrimp_rate + uranium_rate + wiggly_rate
+daily_earnings = total_earned / 2
 
-print("I will earn roughly " + str(round(total_earned, )) + "WLS in total for every harvest (2 days)")
+print("I will earn roughly " + str(round(total_earned, )) + "WLS in total for every harvest (2 days) or " + str(round(daily_earnings, )) + "WLS daily")
 
 print(" ")
 
