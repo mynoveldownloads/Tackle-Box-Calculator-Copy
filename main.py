@@ -61,3 +61,7 @@ earn_wls = tackle_rate / (total_earned / 2)
 print("It will take me about " + str(round(earn_wls, )) + " days to earn back the amount of wls I spent on " + str(round(x, )) + " tackle boxes in which I paid " + str(round(tackle_rate, )) + "WLS or " + str(round(tackle_rate_dls, )) + "DLS at a rate of " + str(rate) + "WLS per tackle box")
 
 print(" ")
+
+print("P.S: the number of days you can earn your WLS back depends on the rate of 1 tackle box. The lower the rate of 1 tackle box, the faster you will earn your WLS back.")
+
+print(" ")
